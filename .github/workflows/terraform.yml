@@ -1,5 +1,4 @@
 name: 'Terraform_CI_CD'
-description: 'Runs Terraform commands via GitHub Actions'
 
 on:
   push:
