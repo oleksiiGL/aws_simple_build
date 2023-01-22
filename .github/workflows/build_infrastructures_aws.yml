@@ -9,9 +9,9 @@ on:
         required: false
         default: 'infrastructures_aws'
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   tf_code_check:
